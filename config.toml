@@ -1,0 +1,242 @@
+# Site settings
+baseurl = "http://lesthesauprintemps.com/"
+languageCode = "fr-fr"
+title = "Les Thés au Printemps"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+  name = "Gaël Kellerson"
+  description = "Un mec qu'il est bien"
+
+  # Since this template is static, the contact form uses www.formspree.io as a
+  # proxy. The form makes a POST request to their servers to send the actual
+  # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+  email = "lesthesauprintemps@gmail.com"
+
+
+  # Navigation
+  [params.navigation]
+    brand = "Les Thés au Printemps"
+    # services = "Le programme"
+    # portfolio = "Portfolio"
+    about = "Le programme"
+    contact = "Nous contacter"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Un festival autour du Thé pour un monde en Paix"
+    subtitle = "7 et 8 mai à Plazac"
+    buttonText = "Découvrez le programme"
+
+
+  # Services section
+  [params.services]
+    enable = false
+    title = "Programme"
+    subtitle = "C'est bien."
+
+      [[params.services.row]]
+
+        [[params.services.row.list]]
+          icon = "fa-shopping-cart"
+          title = "E-Commerce"
+          description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+        [[params.services.row.list]]
+          icon = "fa-laptop"
+          title = "Responsive Design"
+          description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+        [[params.services.row.list]]
+          icon = "fa-lock"
+          title = "Web"
+          description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+  # Portfolio section
+  [params.portfolio]
+        enable = false
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "Programme"
+    subtitle = "Un week-end de rencontres et de partages"
+    endpoint = "Fin"
+    # C'est vraiment sympa à rajouter si on trouve quoi mettre dedans
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "7 et 8 Mai"
+      title = "Le Thé des Femmes"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "art.jpg"
+      date = "7 Mai"
+      title = "Expression artistique"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "education.jpg"
+      date = "8 Mai"
+      title = "Éducation & Respect de la Vie sur Terre"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "July 2014"
+      title = "Une société en transition"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
+  # Team section
+  [params.team]
+        enable = false
+    title = "Our amazing team"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  # Client section
+    [params.clients_list]
+        enable = true
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      [[params.clients]]
+        logo = "colibris.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "lagencecom.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "plazac.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "vallee-de-l-homme.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "conseil-general-dordogne.jpg"
+        link = "#"
+
+
+  # Contact section
+  [params.contact]
+        enable = true
+    title = "Pour plus d'informations sur l'evenement"
+    subtitle  = "Contactez nous directement"
+    buttonText = "Envoyer"
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Votre nom *"
+      warning = "Entrer votre nom."
+
+    [params.contact.form.email]
+      text = "Votre Email *"
+      warning = "Entrer votre email"
+
+    [params.contact.form.phone]
+      text = "Votre numéro de téléphone *"
+      warning = "Entrer votre numéro de téléphone."
+
+    [params.contact.form.message]
+      text = "Votre message *"
+      warning = "Entrez votre message."
+
+
+  # Footer section
+  [params.footer]
+        enable = true
+    copyright = "Les Thés au Printemps"
+
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/lesthesauprintemps"
+
