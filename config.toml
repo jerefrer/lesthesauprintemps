@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://lesthesauprintemps.com/"
+baseurl = "http://jerefrer.github.io/lesthesauprintemps/"
 languageCode = "fr-fr"
 title = "Les Thés au Printemps"
 theme = "hugo-agency-theme"
