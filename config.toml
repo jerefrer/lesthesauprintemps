@@ -215,7 +215,9 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Pour plus d'informations sur l'événement"
-    subtitle  = "Envoyez nous un petit message"
+    subtitle  = "Contactez nous !"
+    phone = "01 23 45 67 89"
+    email = "lesthesauprintemps@gmail.com"
     buttonText = "Envoyer"
 
     # 'warning' defines error messages for invalid inputs

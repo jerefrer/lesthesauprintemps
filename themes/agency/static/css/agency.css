@@ -722,6 +722,14 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+section#contact .icons-with-text {
+    color: white;
+}
+
+section#contact .icons-with-text p {
+    font-size: 17px;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
@@ -778,6 +786,12 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+@media (max-width: 991px) {
+    section#contact .icons-with-text div:first-child {
+        margin-bottom: 50px;
+    }
 }
 
 footer {
