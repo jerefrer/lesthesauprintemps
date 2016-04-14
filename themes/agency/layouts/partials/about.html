@@ -13,7 +13,12 @@
                     {{ range $i, $e := .Site.Params.about.events }}
                     <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
+                            <a href="#portfolioModal{{ $i }}" class="portfolio-link" data-toggle="modal">
+                                <img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
+                                <div class="overlay img-circle img-responsive">
+                                    <i class="fa fa-expand"></i>
+                                </div>
+                            </a>
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -22,6 +27,9 @@
                             </div>
                             <div class="timeline-body">
                                 <p class="text-muted">{{ .description  | markdownify }}</p>
+                                <a href="#portfolioModal{{ $i }}" class="portfolio-link" data-toggle="modal">
+                                    En savoir plus <i class="fa fa-chevron-right"></i>
+                                </a>
                             </div>
                         </div>
                     </li>

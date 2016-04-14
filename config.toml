@@ -88,7 +88,7 @@ googleAnalytics = ""
 
   # Portfolio section
   [params.portfolio]
-        enable = false
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
@@ -97,28 +97,34 @@ googleAnalytics = ""
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttonText = "Close project"
+      date = "Date"
+      buttonText = "Fermer"
 
 
-    # About section
+  # About section
   [params.about]
     enable = true
     title = "Programme"
     subtitle = "Un week-end de rencontres et de partages"
-    endpoint = "Fin"
+    endpoint = "Mais<br>surtout<br> *...* Vous !"
     # C'est vraiment sympa à rajouter si on trouve quoi mettre dedans
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "myrrha.jpg"
       date = "7 et 8 Mai"
       title = "Le Thé des Femmes"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      subtitle = "Parce que les femmes, c'est bien"
+      description = "Myrrha, Les Femmes à la Source, Kayvalia, Hélène Soumet, Balade botanique."
+      body = '''
+ * Exposition et présence de Myrrha http://www.latelierdemyrrha.com/
+ * Ateliers et partages avec Les Femmes à la Source (Festival du Féminin)
+ * Partages avec Kayvalia, qui vit auprès de Amma depuis 10 ans
+ * Partages et dédicaces de livres avec Hélène Soumet (http://helene-soumet.fr/)
+ * Balade Botanique : reconnaître et utiliser les plantes sauvages médicinales pour les femmes avec Françoise Razo
+ '''
 
     [[params.about.events]]
       img = "art.jpg"
@@ -133,15 +139,15 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
+      img = "transition.jpg"
+      date = "8 Mai"
       title = "Une société en transition"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
   [params.team]
-        enable = false
+    enable = false
     title = "Our amazing team"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -186,30 +192,30 @@ googleAnalytics = ""
       # Replace them with your clients's logos.
       [[params.clients]]
         logo = "colibris.jpg"
-        link = "#"
+        link = "http://www.colibris-lemouvement.org/"
 
       [[params.clients]]
         logo = "lagencecom.jpg"
-        link = "#"
+        link = "http://lagencecom.fr/"
 
       [[params.clients]]
         logo = "plazac.jpg"
-        link = "#"
+        link = "http://www.plazac.fr/"
 
       [[params.clients]]
         logo = "vallee-de-l-homme.jpg"
-        link = "#"
+        link = "http://www.cc-valleedelhomme.fr/"
 
       [[params.clients]]
         logo = "conseil-general-dordogne.jpg"
-        link = "#"
+        link = "https://www.dordogne.fr/"
 
 
   # Contact section
   [params.contact]
-        enable = true
-    title = "Pour plus d'informations sur l'evenement"
-    subtitle  = "Contactez nous directement"
+    enable = true
+    title = "Pour plus d'informations sur l'événement"
+    subtitle  = "Envoyez nous un petit message"
     buttonText = "Envoyer"
 
     # 'warning' defines error messages for invalid inputs
