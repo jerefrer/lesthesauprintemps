@@ -234,6 +234,21 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+.navbar-default .navbar-brand {
+    padding: 0;
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+.navbar-default .navbar-brand img {
+    width: 140px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -245,10 +260,15 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
+        margin-top: -25px;
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+    }
+
+    .navbar-default .navbar-brand img {
+        width: 260px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -261,7 +281,13 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
+        margin-top: -10px !important;
+        margin-left: -15px !important;
         font-size: 1.5em;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img {
+        width: 175px;
     }
 }
 
@@ -518,8 +544,8 @@ section h3.section-subheading {
     bottom: 0;
     left: 0;
     background: black;
-    padding-top: 40px;
-    font-size: 50px;
+    padding-top: 7px;
+    font-size: 35px;
     text-align: text;
     opacity: 0;
     z-index: 10;
@@ -527,6 +553,25 @@ section h3.section-subheading {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .timeline>li .timeline-image .overlay {
+        padding-top: 7px;
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .timeline>li .timeline-image .overlay {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timeline>li .timeline-image .overlay {
+        padding-top: 41px;
+    }
 }
 
 .timeline>li .timeline-image:hover {
@@ -847,7 +892,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 70px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;

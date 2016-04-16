@@ -12,7 +12,7 @@
                         <p class="date text-muted">{{ .date }}</p>
                         <h2>{{ .title  | markdownify }}</h2>
                         <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
-                        <img class="img-responsive img-centered" src="img/about/{{ .img }}" alt="">
+                        <img class="img-responsive img-centered img-circle" src="img/about/{{ .img }}" alt="">
                         <p>{{ .body | markdownify }}</p>
                         <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . | markdownify }}{{ end }}</button>
                     </div>
