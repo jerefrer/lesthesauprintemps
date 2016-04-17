@@ -1019,6 +1019,27 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
+.modal-body ul {
+    padding: 0;
+    list-style: none;
+}
+
+.modal-body ul li img,
+.modal-body ul li span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.modal-body ul li img {
+    width: 20%;
+    margin: 0 5% 10px !important;
+    border-radius: 50%;
+}
+
+.modal-body ul li span {
+    width: 70%;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #8BB812;

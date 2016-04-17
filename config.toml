@@ -119,11 +119,11 @@ googleAnalytics = ""
       subtitle = "Parce que les femmes, c'est bien"
       description = "Myrrha, Les Femmes à la Source, Kayvalia, Hélène Soumet, Balade botanique."
       body = '''
- * Exposition et présence de Myrrha (http://www.latelierdemyrrha.com/)
- * Ateliers et partages avec «Les Femmes à la Source» (Festival du Féminin)
- * Partages avec Kayvalia, qui vit auprès de Amma depuis 10 ans
- * Partages et dédicaces de livres avec Hélène Soumet (http://helene-soumet.fr/)
- * Balade Botanique : reconnaître et utiliser les plantes sauvages médicinales pour les femmes avec Françoise Razo
+* ![Myrrha](img/myrrha.jpg)<span>Exposition et présence de Myrrha<br>http://www.latelierdemyrrha.com/</span>
+* <span>Ateliers et partages avec «[Les Femmes à la Source](http://www.femininaupaysdelhomme.com/)» (Festival du Féminin)</span>![Les Femmes à la Source](img/femmesalasource.jpg)
+* ![Kayvalia](img/amma.jpg)<span>Partages avec Kayvalia, qui vit auprès de Amma depuis 10 ans</span>
+* <span>Partages et dédicaces de livres avec Hélène Soumet<br>http://helene-soumet.fr/</span>![Hélène Soumet](img/helene-soumet.jpg)
+* ![Balade botanique](img/balade-botanique.jpg)<span>Balade Botanique : reconnaître et utiliser les plantes sauvages médicinales pour les femmes avec Françoise Razo</span>
 '''
 
     [[params.about.events]]
@@ -169,7 +169,6 @@ googleAnalytics = ""
 * [Maison 24](http://lamaison24.fr/)
 * [collectif compteurs communicants 24](http://collectifcompteurscommunicants24.blogspot.com/)
 '''
-
 
   # Team section
   [params.team]
