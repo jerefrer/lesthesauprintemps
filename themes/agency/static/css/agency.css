@@ -291,6 +291,12 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav {
+        margin: 60px -15px 7.5px;
+    }
+}
+
 header {
     text-align: center;
     color: #fff;
