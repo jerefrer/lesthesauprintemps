@@ -244,8 +244,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand img {
-    width: 118px;
-    margin: 2px;
+    width: 100px;
+    margin: 5px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -292,7 +292,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand img {
-        width: 155px;
+        width: 145px;
         margin: 5px;
     }
 }
@@ -610,10 +610,6 @@ section h3.section-subheading {
     }
 }
 
-.timeline>li .timeline-image:hover {
-    border-color: #537913;
-}
-
 .timeline>li .timeline-image:hover .overlay {
     opacity: 0.5;
 }
@@ -643,12 +639,8 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 0;
+    margin-top: 25px;
     color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
 }
 
 .timeline .timeline-body>p,
@@ -791,8 +783,15 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
+aside.clients .container {
+    margin: 50px 0;
+    text-align: center;
+}
+
+aside.clients .container > * {
+    display: inline-block;
+    margin: 25px 25px;
+    vertical-align: top;
 }
 
 section#contact {
@@ -972,7 +971,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .portfolio-modal .close-modal {
@@ -1019,6 +1018,49 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
+.modal-body ul {
+    margin-bottom: 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.modal-body ul li {
+    margin-bottom: 30px;
+}
+
+.modal-body ul li img,
+.modal-body ul li span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0 !important;
+}
+
+.modal-body ul li img {
+    width: 12%;
+    border-radius: 50%;
+}
+
+.modal-body ul li:nth-child(2n) img {
+    margin-left: 3% !important;
+}
+
+.modal-body ul li:nth-child(2n) span {
+    text-align: right;
+}
+
+.modal-body ul li:nth-child(2n+1) img {
+    margin-right: 3% !important;
+}
+
+.modal-body ul li:nth-child(2n+1) span {
+    text-align: left;
+}
+
+.modal-body ul li span {
+    width: 85%;
+    font-size: 16px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #8BB812;
@@ -1040,3 +1082,61 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #8BB812;
 }
+
+/*---------------------------
+          PROGRAMME
+---------------------------*/
+
+#programme h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#programme table th {
+    width: 100px;
+    vertical-align: middle;
+}
+
+#programme table td div {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#programme table td div.neutre {
+    background-color: #777;
+}
+
+#programme table td div:last-child {
+    margin-bottom: 0;
+}
+
+/*---------------------------
+     COULEURS PAR THEMES
+---------------------------*/
+
+.portfolio-modal.the-des-femmes h2,
+.timeline .the-des-femmes .timeline-heading h4,
+.timeline .the-des-femmes .timeline-image .overlay { color: #E36C09; }
+.timeline .the-des-femmes .timeline-image { border-color: #E36C09; }
+#programme table td div.the-des-femmes { background-color: #E36C09;; }
+
+.portfolio-modal.salle-des-fetes h2,
+.timeline .salle-des-fetes .timeline-heading h4,
+.timeline .salle-des-fetes .timeline-image .overlay { color: #76923C; }
+.timeline .salle-des-fetes .timeline-image { border-color: #76923C; }
+#programme table td div.salle-des-fetes { background-color: #76923C;; }
+
+.portfolio-modal.societe-en-transition h2,
+.timeline .societe-en-transition .timeline-heading h4,
+.timeline .societe-en-transition .timeline-image .overlay { color: #548DD4; }
+.timeline .societe-en-transition .timeline-image { border-color: #548DD4; }
+#programme table td div.societe-en-transition { background-color: #548DD4;; }
+
+.portfolio-modal.education h2,
+.timeline .education .timeline-heading h4,
+.timeline .education .timeline-image .overlay { color: #7030A0; }
+.timeline .education .timeline-image { border-color: #7030A0; }
+#programme table td div.education { background-color: #7030A0;; }
