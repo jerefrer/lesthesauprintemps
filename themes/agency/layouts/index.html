@@ -11,6 +11,8 @@
             {{ partial "about.html" . }}
         {{ end }}
 
+        {{partial "programme.html" . }}
+
         {{ if .Site.Params.services.enable }}
             {{ partial "services.html" . }}
         {{ end }}

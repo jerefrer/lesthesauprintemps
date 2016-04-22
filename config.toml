@@ -6,6 +6,9 @@ theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
+[blackfriday]
+  hrefTargetBlank = true
+
 [params]
 
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -39,7 +42,7 @@ googleAnalytics = ""
     brand = "Les Thés au Printemps"
     # services = "Le programme"
     # portfolio = "Portfolio"
-    about = "Le programme"
+    about = "Les thèmes"
     contact = "Nous contacter"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -66,7 +69,7 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = false
-    title = "Programme"
+    title = "Thèmes"
     subtitle = "C'est bien."
 
       [[params.services.row]]
@@ -104,8 +107,8 @@ googleAnalytics = ""
   # About section
   [params.about]
     enable = true
-    title = "Programme"
-    subtitle = "Un week-end de rencontres et de partages"
+    title = "Thèmes"
+    subtitle = "4 thèmes qu'ils sont sympas"
     endpoint = "Mais<br>surtout<br> *...* Vous !"
     # C'est vraiment sympa à rajouter si on trouve quoi mettre dedans
 
@@ -113,6 +116,7 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+      class = "the-des-femmes"
       img = "myrrha.jpg"
       date = "7 et 8 Mai"
       title = "Le Thé des Femmes"
@@ -120,17 +124,18 @@ googleAnalytics = ""
       description = "Myrrha, Les Femmes à la Source, Kayvalia, Hélène Soumet, Balade botanique."
       body = '''
 * ![Myrrha](img/myrrha.jpg)<span>Exposition et présence de Myrrha<br>http://www.latelierdemyrrha.com/</span>
-* <span>Ateliers et partages avec «[Les Femmes à la Source](http://www.femininaupaysdelhomme.com/)» (Festival du Féminin)</span>![Les Femmes à la Source](img/femmesalasource.jpg)
-* ![Kayvalia](img/amma.jpg)<span>Partages avec Kayvalia, qui vit auprès de Amma depuis 10 ans</span>
+* <span>Ateliers et partages avec «Les Femmes à la Source» (Festival du Féminin)<br>http://www.femininaupaysdelhomme.com/</span>![Les Femmes à la Source](img/femmesalasource.jpg)
+* ![Kayvalia](img/amma.jpg)<span>Partages avec Kayvalia, qui vit auprès de Amma depuis 10 ans<br>http://www.etw-france.org/</span>
 * <span>Partages et dédicaces de livres avec Hélène Soumet<br>http://helene-soumet.fr/</span>![Hélène Soumet](img/helene-soumet.jpg)
 * ![Balade botanique](img/balade-botanique.jpg)<span>Balade Botanique : reconnaître et utiliser les plantes sauvages médicinales pour les femmes avec Françoise Razo</span>
 '''
 
     [[params.about.events]]
+      class = 'salle-des-fetes'
       img = "art.jpg"
       date = "7 Mai"
-      title = "Expression artistique"
-      subtitle = "Parce que l'expression, c'est cool"
+      title = "Salle des fêtes"
+      subtitle = "Parce que la salle, c'est fête"
       description = "Des trucs"
       body = '''
 * Plazac village en art
@@ -143,6 +148,7 @@ googleAnalytics = ""
 '''
 
     [[params.about.events]]
+      class = 'education'
       img = "education.jpg"
       date = "8 Mai"
       title = "Éducation & Respect de la Vie sur Terre"
@@ -155,6 +161,7 @@ googleAnalytics = ""
 '''
 
     [[params.about.events]]
+      class = 'societe-en-transition'
       img = "transition.jpg"
       date = "8 Mai"
       title = "Une société en transition"
@@ -222,6 +229,13 @@ googleAnalytics = ""
       [[params.clients]]
         logo = "lagencecom.jpg"
         link = "http://lagencecom.fr/"
+
+      [[params.clients]]
+        logo = "si-nature.jpg"
+        link = "http://www.si-nature.fr/"
+
+      [[params.clients]]
+        logo = "sinensis.jpg"
 
       [[params.clients]]
         logo = "plazac.jpg"
