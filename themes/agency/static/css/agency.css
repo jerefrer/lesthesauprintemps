@@ -1092,6 +1092,16 @@ body {
     margin-bottom: 20px;
 }
 
+#programme table thead th {
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+#programme table tr td {
+    text-align: center;
+}
+
 #programme table th {
     width: 100px;
     vertical-align: middle;
@@ -1102,11 +1112,11 @@ body {
     margin-bottom: 5px;
     padding: 5px;
     border-radius: 5px;
-    color: white;
+    color: white !important;
 }
 
-#programme table td div.neutre {
-    background-color: #777;
+#programme table td.marjolaine div {
+    background-color: #777 !important;
 }
 
 #programme table td div:last-child {
@@ -1119,24 +1129,50 @@ body {
 
 .portfolio-modal.the-des-femmes h2,
 .timeline .the-des-femmes .timeline-heading h4,
-.timeline .the-des-femmes .timeline-image .overlay { color: #E36C09; }
-.timeline .the-des-femmes .timeline-image { border-color: #E36C09; }
-#programme table td div.the-des-femmes { background-color: #E36C09;; }
+.timeline .the-des-femmes .timeline-image .overlay,
+#programme table th.the-des-femmes { color: #E36C09 !important; }
+.timeline .the-des-femmes .timeline-image { border-color: #E36C09 !important; }
+#programme table td.the-des-femmes div { background-color: #E36C09 !important; }
 
 .portfolio-modal.salle-des-fetes h2,
 .timeline .salle-des-fetes .timeline-heading h4,
-.timeline .salle-des-fetes .timeline-image .overlay { color: #76923C; }
-.timeline .salle-des-fetes .timeline-image { border-color: #76923C; }
-#programme table td div.salle-des-fetes { background-color: #76923C;; }
+.timeline .salle-des-fetes .timeline-image .overlay,
+#programme table th.salle-des-fetes { color: #76923C !important; }
+.timeline .salle-des-fetes .timeline-image { border-color: #76923C !important; }
+#programme table td.salle-des-fetes div { background-color: #76923C !important; }
 
 .portfolio-modal.societe-en-transition h2,
 .timeline .societe-en-transition .timeline-heading h4,
-.timeline .societe-en-transition .timeline-image .overlay { color: #548DD4; }
-.timeline .societe-en-transition .timeline-image { border-color: #548DD4; }
-#programme table td div.societe-en-transition { background-color: #548DD4;; }
+.timeline .societe-en-transition .timeline-image .overlay,
+#programme table th.societe-en-transition { color: #548DD4 !important; }
+.timeline .societe-en-transition .timeline-image { border-color: #548DD4 !important; }
+#programme table td.societe-en-transition div { background-color: #548DD4 !important; }
 
 .portfolio-modal.education h2,
 .timeline .education .timeline-heading h4,
-.timeline .education .timeline-image .overlay { color: #7030A0; }
-.timeline .education .timeline-image { border-color: #7030A0; }
-#programme table td div.education { background-color: #7030A0;; }
+.timeline .education .timeline-image .overlay,
+#programme table th.education { color: #7030A0 !important; }
+.timeline .education .timeline-image { border-color: #7030A0 !important; }
+#programme table td.education div { background-color: #7030A0 !important; }
+
+/* PRINT */
+@media print {
+    section {
+        padding: 0 !important;
+    }
+    #programme h2 {
+        display: none;
+    }
+    #programme h3 {
+        text-align: center;
+    }
+    #programme table {
+        page-break-after: always;
+    }
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding: 7px;
+    }
+}
