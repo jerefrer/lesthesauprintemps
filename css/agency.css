@@ -1087,6 +1087,14 @@ body {
           PROGRAMME
 ---------------------------*/
 
+#programme h2 small {
+    font-size: 50%;
+}
+
+#programme h2 small a:hover {
+    text-decoration: none;
+}
+
 #programme h3 {
     margin-top: 30px;
     margin-bottom: 20px;
