@@ -1102,8 +1102,21 @@ body {
 
 #programme table thead th {
     text-align: center;
+}
+
+#programme table thead tr.table-header th {
+    border: none;
     text-transform: uppercase;
     vertical-align: bottom;
+}
+
+#programme table thead tr.table-sub-header th {
+    padding-top: 0;
+    border-top: none;
+    color: #777;
+    font-size: 90%;
+    font-style: italic;
+    vertical-align: top;
 }
 
 #programme table tr td {
@@ -1129,6 +1142,13 @@ body {
 
 #programme table td div:last-child {
     margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .table-responsive th,
+    .table-responsive td {
+        white-space: normal !important;
+    }
 }
 
 /*---------------------------
@@ -1162,6 +1182,13 @@ body {
 #programme table th.education { color: #7030A0 !important; }
 .timeline .education .timeline-image { border-color: #7030A0 !important; }
 #programme table td.education div { background-color: #7030A0 !important; }
+
+.portfolio-modal.marjolaine h2,
+.timeline .marjolaine .timeline-heading h4,
+.timeline .marjolaine .timeline-image .overlay,
+#programme table th.marjolaine { color: #1FBB97 !important; }
+.timeline .marjolaine .timeline-image { border-color: #1FBB97 !important; }
+#programme table td.marjolaine div { background-color: #1FBB97 !important; }
 
 /* PRINT */
 @media print {
