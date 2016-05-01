@@ -1111,6 +1111,7 @@ body {
 
 #programme h2 small {
     font-size: 50%;
+    white-space: nowrap;
 }
 
 #programme h2 small a:hover {
