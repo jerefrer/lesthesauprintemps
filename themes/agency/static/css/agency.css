@@ -1037,7 +1037,7 @@ ul.social-buttons li a:active {
 }
 
 .modal-body ul li {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .modal-body ul li img,
@@ -1048,7 +1048,7 @@ ul.social-buttons li a:active {
 }
 
 .modal-body ul li img {
-    width: 12%;
+    width: 15%;
     border-radius: 50%;
 }
 
@@ -1069,8 +1069,18 @@ ul.social-buttons li a:active {
 }
 
 .modal-body ul li span {
-    width: 85%;
+    width: 82%;
     font-size: 16px;
+}
+
+.modal-body ul li span h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.modal-body ul li span em {
+  display: block;
+  margin-bottom: 13px;
 }
 
 ::-moz-selection {
@@ -1136,7 +1146,6 @@ body {
 }
 
 #programme table th {
-    width: 100px;
     vertical-align: middle;
 }
 
@@ -1146,10 +1155,6 @@ body {
     padding: 5px;
     border-radius: 5px;
     color: white !important;
-}
-
-#programme table td.marjolaine div {
-    background-color: #777 !important;
 }
 
 #programme table td div:last-child {
@@ -1194,13 +1199,6 @@ body {
 #programme table th.education { color: #7030A0 !important; }
 .timeline .education .timeline-image { border-color: #7030A0 !important; }
 #programme table td.education div { background-color: #7030A0 !important; }
-
-.portfolio-modal.marjolaine h2,
-.timeline .marjolaine .timeline-heading h4,
-.timeline .marjolaine .timeline-image .overlay,
-#programme table th.marjolaine { color: #1FBB97 !important; }
-.timeline .marjolaine .timeline-image { border-color: #1FBB97 !important; }
-#programme table td.marjolaine div { background-color: #1FBB97 !important; }
 
 /* PRINT */
 @media print {
