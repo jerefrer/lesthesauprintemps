@@ -1119,8 +1119,10 @@ body {
 }
 
 #programme h3 {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
 }
 
 #programme table thead th {
@@ -1219,7 +1221,7 @@ body {
     }
     #programme h3 {
         margin-top: 0;
-        text-align: center;
+        margin-bottom: 40px;
     }
     #programme table {
         font-size: 74%;
