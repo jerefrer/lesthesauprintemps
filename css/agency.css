@@ -1142,6 +1142,14 @@ body {
     vertical-align: top;
 }
 
+#programme table tbody th {
+  width: 10%;
+}
+
+#programme table tbody td {
+  width: 22.5%;
+}
+
 #programme table tr td {
     text-align: center;
 }
