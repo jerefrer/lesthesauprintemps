@@ -1119,8 +1119,8 @@ body {
 }
 
 #programme h3 {
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
     font-size: 28px;
     text-align: center;
 }
@@ -1221,7 +1221,6 @@ body {
     }
     #programme h3 {
         margin-top: 0;
-        margin-bottom: 40px;
     }
     #programme table {
         font-size: 74%;
