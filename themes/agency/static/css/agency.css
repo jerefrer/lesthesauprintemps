@@ -1052,6 +1052,27 @@ ul.social-buttons li a:active {
     border-radius: 50%;
 }
 
+.modal-body > ul > li span {
+    width: 82%;
+    font-size: 16px;
+}
+
+.modal-body > ul > li span h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.modal-body > ul > li span em {
+    display: block;
+    margin-bottom: 13px;
+}
+
+.modal-body > ul > li ul {
+    padding: 0;
+    list-style: initial;
+    list-style-position: inside;
+}
+
 .modal-body > ul > li:nth-child(2n) img {
     margin-left: 3% !important;
 }
@@ -1068,30 +1089,28 @@ ul.social-buttons li a:active {
     text-align: left;
 }
 
-.modal-body > ul > li span {
-    width: 82%;
-    font-size: 16px;
-}
-
-.modal-body > ul > li span h3 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-.modal-body > ul > li span em {
-  display: block;
-  margin-bottom: 13px;
-}
-
-.modal-body > ul > li ul {
-  padding: 0;
-  list-style: initial;
-  list-style-position: inside;
-}
-
 .modal-body > ul > li:nth-child(2n) ul {
   direction: rtl;
   text-align: right;
+}
+
+@media (max-width: 330px) {
+    .portfolio-modal .modal-content {
+        width: 90%;
+    }
+    .modal-body > ul > li img {
+        width: 30%;
+    }
+    .modal-body > ul > li span {
+        width: 67%;
+    }
+    .modal-body > ul > li span a {
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
 }
 
 ::-moz-selection {
