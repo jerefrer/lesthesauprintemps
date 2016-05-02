@@ -1196,13 +1196,17 @@ body {
 
 #plan {
     background: #E8E8E8;
-    padding: 95px;
+    padding: 95px 0;
     text-align: center;
 }
 
 #plan h2 {
     margin-top: 0;
     margin-bottom: 40px;
+}
+
+#plan img {
+    max-width: 95%;
 }
 
 /*---------------------------
@@ -1239,8 +1243,13 @@ body {
 
 #video {
     background: #E8E8E8;
-    padding: 95px;
+    padding: 95px 0;
     text-align: center;
+}
+
+#video iframe {
+  max-width: 95%;
+  height: 53vw;
 }
 
 /* PRINT */
