@@ -119,8 +119,8 @@ googleAnalytics = ""
       img = "myrrha.jpg"
       date = "7 et 8 Mai"
       title = "Le Thé des Femmes"
-      subtitle = "L'esprit du thé au coeur de la féminité"
-      description = "Myrrha, Les Femmes à la Source,<br>Kayvalia, Balades botaniques."
+      subtitle = "L'esprit du thé au coeur de la féminité."
+      description = "L'esprit du thé au coeur de la féminité."
       body = '''
 * ![Myrrha](img/myrrha.jpg)<span><h3>Exposition et présence de Myrrha</h3><em>Sur les deux jours</em>http://www.latelierdemyrrha.com/</span>
 * <span><h3>Ateliers et partages avec «Les Femmes à la Source» (Festival du Féminin)</h3><em>Ateliers de Wu Tao Samedi à 10h30 et 14h20</em>http://www.femininaupaysdelhomme.com/</span>![Les Femmes à la Source](img/femmesalasource.jpg)
@@ -135,12 +135,16 @@ googleAnalytics = ""
       img = "education.jpg"
       date = "8 Mai"
       title = "Éducation & Respect de la Vie sur Terre"
-      subtitle = "Parce que le respect, c'est super"
-      description = "Du respect"
+      subtitle = "Le respect dans l'éducation."
+      description = "Le respect dans l'éducation."
       body = '''
-* Association arche de Noé
-* [Association arche d'Abraham](https://www.facebook.com/profile.php?id=100010940253118&fref=ts)
-* [Association végétarienne de France](http://www.vegetarisme.fr/) *le samedi*
+
+* ![Respect de la vie animale](img/respect-vie-animale.jpg)<span><h3>Stands d'associations pour le respect de la vie animale</h3><em>Sur les deux jours sous la halle du village</em><ul><li>Association arche de Noé</li><li>[Association arche d'Abraham](https://www.facebook.com/profile.php?id=100010940253118&fref=ts)</li><li>[Association végétarienne de France](http://www.vegetarisme.fr/) (le samedi)</li></ul></span>
+* <span><h3>Triple exposition des élèves du collège de Montignac</h3><em>Sur les deux jours sous la halle du village</em><ul><li>Le Respect de la vie animale</li><li>La Paix dans le Monde</li><li>Voir Demain dans une tasse de Thé</li></ul></span>![Respect de la vie animale](img/respect-vie-animale.jpg)
+* ![Table ronde de partages libres](img/table-ronde.jpg)<span><h3>Table ronde de partages libres sur les thèmes de l'art, de l'éducation et du respect de la vie.</h3><em>Sur les deux jours sous la halle du village</em></span>
+* <span><h3>Atelier d'expression libre artistique</h3><em>Samedi à 16h</em></span>![Expression libre artistique](img/expression-artistique.jpg)
+* ![Je suis la piste](img/je-suis-la-piste.jpg)<span><h3>Départ de l'atelier pistage avec Francis Collie</h3><em>Dimanche à 10h30</em>http://jesuislapiste.blogspot.fr/</span>
+* <span><h3>Conférence / débat autour de l'éducation</h3><em>Dimanche 11h à la salle des fêtes</em>Interventions de Christelle Kouch, discipline positive, Sarah Neïma Djerbi, pédagogie Freinet, Nicolas Serre, et Nadège Tricard, présidente des Parents d'élève du collège du Bugue suivies d'un débat ouvert</span>![Conférence éducation](img/conference-education.jpg)
 '''
 
     [[params.about.events]]
