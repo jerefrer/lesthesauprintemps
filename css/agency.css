@@ -1030,57 +1030,68 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
-.modal-body ul {
+.modal-body > ul {
     margin-bottom: 50px;
     padding: 0;
     list-style: none;
 }
 
-.modal-body ul li {
+.modal-body > ul > li {
     margin-bottom: 70px;
 }
 
-.modal-body ul li img,
-.modal-body ul li span {
+.modal-body > ul > li img,
+.modal-body > ul > li span {
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 0 !important;
 }
 
-.modal-body ul li img {
+.modal-body > ul > li img {
     width: 15%;
     border-radius: 50%;
 }
 
-.modal-body ul li:nth-child(2n) img {
+.modal-body > ul > li:nth-child(2n) img {
     margin-left: 3% !important;
 }
 
-.modal-body ul li:nth-child(2n) span {
+.modal-body > ul > li:nth-child(2n) span {
     text-align: right;
 }
 
-.modal-body ul li:nth-child(2n+1) img {
+.modal-body > ul > li:nth-child(2n+1) img {
     margin-right: 3% !important;
 }
 
-.modal-body ul li:nth-child(2n+1) span {
+.modal-body > ul > li:nth-child(2n+1) span {
     text-align: left;
 }
 
-.modal-body ul li span {
+.modal-body > ul > li span {
     width: 82%;
     font-size: 16px;
 }
 
-.modal-body ul li span h3 {
+.modal-body > ul > li span h3 {
   margin-top: 0;
   font-size: 18px;
 }
 
-.modal-body ul li span em {
+.modal-body > ul > li span em {
   display: block;
   margin-bottom: 13px;
+}
+
+.modal-body > ul > li ul {
+  padding: 0;
+  list-style: initial;
+  list-style-position: inside;
+}
+
+.modal-body > ul > li:nth-child(2n) ul {
+  direction: rtl;
+  text-align: right;
 }
 
 ::-moz-selection {
@@ -1210,6 +1221,12 @@ body {
 #programme table th.education { color: #7030A0 !important; }
 .timeline .education .timeline-image { border-color: #7030A0 !important; }
 #programme table td.education div { background-color: #7030A0 !important; }
+
+#video {
+    background: #E8E8E8;
+    padding: 95px;
+    text-align: center;
+}
 
 /* PRINT */
 @media print {
