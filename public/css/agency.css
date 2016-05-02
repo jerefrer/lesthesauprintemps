@@ -1067,6 +1067,14 @@ ul.social-buttons li a:active {
     margin-bottom: 13px;
 }
 
+.modal-body > ul > li span a {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .modal-body > ul > li ul {
     padding: 0;
     list-style: initial;
@@ -1103,13 +1111,6 @@ ul.social-buttons li a:active {
     }
     .modal-body > ul > li span {
         width: 67%;
-    }
-    .modal-body > ul > li span a {
-      display: inline-block;
-      width: 100%;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
     }
 }
 
