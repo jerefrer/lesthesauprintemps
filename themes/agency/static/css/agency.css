@@ -1248,8 +1248,14 @@ body {
 }
 
 #video iframe {
-  max-width: 95%;
-  height: 53vw;
+    max-width: 95%;
+}
+
+@media (max-width: 768px) {
+    #video iframe {
+        max-width: 95%;
+        height: 53vw;
+    }
 }
 
 /* PRINT */
