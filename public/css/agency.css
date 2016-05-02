@@ -1188,75 +1188,51 @@ body {
 .timeline .the-des-femmes .timeline-image .overlay,
 #programme table th.the-des-femmes { color: #E36C09 !important; }
 .timeline .the-des-femmes .timeline-image { border-color: #E36C09 !important; }
-#programme table td.the-des-femmes div { color: #E36C09 !important; }
+#programme table td.the-des-femmes div { background-color: #E36C09 !important; }
 
 .portfolio-modal.salle-des-fetes h2,
 .timeline .salle-des-fetes .timeline-heading h4,
 .timeline .salle-des-fetes .timeline-image .overlay,
 #programme table th.salle-des-fetes { color: #76923C !important; }
 .timeline .salle-des-fetes .timeline-image { border-color: #76923C !important; }
-#programme table td.salle-des-fetes div { color: #76923C !important; }
+#programme table td.salle-des-fetes div { background-color: #76923C !important; }
 
 .portfolio-modal.societe-en-transition h2,
 .timeline .societe-en-transition .timeline-heading h4,
 .timeline .societe-en-transition .timeline-image .overlay,
 #programme table th.societe-en-transition { color: #548DD4 !important; }
 .timeline .societe-en-transition .timeline-image { border-color: #548DD4 !important; }
-#programme table td.societe-en-transition div { color: #548DD4 !important; }
+#programme table td.societe-en-transition div { background-color: #548DD4 !important; }
 
 .portfolio-modal.education h2,
 .timeline .education .timeline-heading h4,
 .timeline .education .timeline-image .overlay,
 #programme table th.education { color: #7030A0 !important; }
 .timeline .education .timeline-image { border-color: #7030A0 !important; }
-#programme table td.education div { color: #7030A0 !important; }
+#programme table td.education div { background-color: #7030A0 !important; }
 
 /* PRINT */
 @media print {
     section {
         padding: 0 !important;
     }
-    #programme {
-      font-size: 20px;
-      font-family: Arial;
-    }
     #programme h2 {
         display: none;
     }
     #programme h3 {
         margin-top: 0;
-        margin-bottom: 10px;
     }
     #programme table {
         font-size: 74%;
         page-break-after: always;
     }
-    #programme table thead th {
-        padding: 0px !important;
-    }
-    #programme table thead tr.table-sub-header th {
-        padding: 2px !important;
-    }
-    #programme table tbody th,
-    #programme table tbody td {
-        padding: 2px;
-    }
-    #programme table tbody th {
-        width: 4%;
-    }
-    #programme table tbody td {
-        width: 24%;
-        vertical-align: middle;
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding: 6px;
     }
     #programme table td div {
-        display: inline-block;
-        font-weight: bold;
-        margin-bottom: 0 !important;
-        padding: 0;
-        border-radius: 0;
+        padding: 3px 5px 4px;
     }
-    #programme table td.the-des-femmes div { color: #E36C09 !important; }
-    #programme table td.salle-des-fetes div { color: #76923C !important; }
-    #programme table td.societe-en-transition div { color: #548DD4 !important; }
-    #programme table td.education div { color: #7030A0 !important; }
 }
