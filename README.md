@@ -21,3 +21,4 @@
 1. Décommenter les fonts en haut du fichier `themes/agency/static/css/agency.css`
 2. Retirer les `<link>` d'import des fonts de `themes/agency/layouts/partials/head.html`
 3. Retirer tous les partials sauf `{{partial "programme.html" . }}` dans èthemes/agency/layouts/index.html`
+4. `wkhtmltopdf -O Landscape --print-media-type http://localhost:1313/lesthesauprintemps/ static/programme.pdf`
