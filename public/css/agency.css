@@ -652,7 +652,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 25px;
+    margin-top: 0;
     color: inherit;
 }
 
@@ -1069,7 +1069,7 @@ ul.social-buttons li a:active {
 
 .modal-body > ul > li span a {
   display: inline-block;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
