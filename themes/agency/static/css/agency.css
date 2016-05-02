@@ -1211,6 +1211,12 @@ body {
 .timeline .education .timeline-image { border-color: #7030A0 !important; }
 #programme table td.education div { background-color: #7030A0 !important; }
 
+#video {
+    background: #E8E8E8;
+    padding: 95px;
+    text-align: center;
+}
+
 /* PRINT */
 @media print {
     section {
