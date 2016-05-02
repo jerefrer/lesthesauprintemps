@@ -25,6 +25,11 @@
             {{ partial "portfolio.html" . }}
         {{ end }}
 
+        <div id="plan">
+            <h2>Le plan</h2>
+            <img src="img/plan.jpg" />
+        </div>
+
         {{ if .Site.Params.team.enable }}
             {{ partial "team.html" . }}
         {{ end }}

@@ -1191,6 +1191,21 @@ body {
 }
 
 /*---------------------------
+            PLAN
+---------------------------*/
+
+#plan {
+    background: #E8E8E8;
+    padding: 95px;
+    text-align: center;
+}
+
+#plan h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/*---------------------------
      COULEURS PAR THEMES
 ---------------------------*/
 
