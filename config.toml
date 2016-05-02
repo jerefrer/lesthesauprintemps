@@ -139,8 +139,8 @@ googleAnalytics = ""
       description = "Le respect dans l'éducation."
       body = '''
 
-* ![Respect de la vie animale](img/respect-vie-animale.jpg)<span><h3>Stands d'associations pour le respect de la vie animale</h3><em>Sur les deux jours sous la halle du village</em><ul><li>Association arche de Noé</li><li>[Association arche d'Abraham](https://www.facebook.com/profile.php?id=100010940253118&fref=ts)</li><li>[Association végétarienne de France](http://www.vegetarisme.fr/) (le samedi)</li></ul></span>
-* <span><h3>Triple exposition des élèves du collège de Montignac</h3><em>Sur les deux jours sous la halle du village</em><ul><li>Le Respect de la vie animale</li><li>La Paix dans le Monde</li><li>Voir Demain dans une tasse de Thé</li></ul></span>![Respect de la vie animale](img/respect-vie-animale.jpg)
+* ![Respect de la vie animale](img/respect-vie-animale.jpg)<span><h3>Stands d'associations pour le respect de la vie animale</h3><em>Sur les deux jours sous la halle du village</em><ul><li>Association arche de Noé</li><li>[Association arche d'Abraham](https://www.facebook.com/profile.php?id=100010940253118&fref=ts)</li><li>[Association végétarienne de France](http://www.vegetarisme.fr/)</li></ul></span>
+* <span><h3>Triple exposition des élèves du collège de Montignac</h3><em>Sur les deux jours sous la halle du village</em><ul><li>Le Respect de la vie animale</li><li>La Paix dans le Monde</li><li>Voir Demain dans une tasse de Thé</li></ul></span>![Respect de la vie animale](img/dessin2.jpg)
 * ![Table ronde de partages libres](img/table-ronde.jpg)<span><h3>Table ronde de partages libres sur les thèmes de l'art, de l'éducation et du respect de la vie.</h3><em>Sur les deux jours sous la halle du village</em></span>
 * <span><h3>Atelier d'expression libre artistique</h3><em>Samedi à 16h</em></span>![Expression libre artistique](img/expression-artistique.jpg)
 * ![Je suis la piste](img/je-suis-la-piste.jpg)<span><h3>Départ de l'atelier pistage avec Francis Collie</h3><em>Dimanche à 10h30</em>http://jesuislapiste.blogspot.fr/</span>
@@ -152,21 +152,22 @@ googleAnalytics = ""
       img = "societe-en-transition.jpg"
       date = "8 Mai"
       title = "Une société en transition"
-      subtitle = "Parce que la société, elle a mauvaise haleine"
-      description = "Des trucs"
+      subtitle = "\"L'art du thé se trouve au coeur de la démocratie Japonaise\" Esprit du Thé, Vie du Thé"
+      description = "\"L'art du thé se trouve au coeur de la démocratie Japonaise\" Esprit du Thé, Vie du Thé"
       body = '''
-* ![Troc de graines](img/troc-graines.jpg)<span><h3>Troc de Graines et Plantes</h3><em>Sur les deux jours</em></span>
-* <span><h3>Gratiferia</h3><em>Sur les deux jours</em></span>![Gratuit](img/gratuit.jpg)
+* ![Troc de graines](img/troc-graines2.jpg)<span><h3>Troc de Graines et Plantes</h3><em>Sur les deux jours</em>Venez partager vos graines et vos plantes, pour embellir et enrichir les jardins.</span>
+* <span><h3>Gratiféria, une nouvelle façon de partager : comme un vide grenier, mais gratuit !</h3><em>Sur les deux jours</em>Venez avec vos objets, vêtements, disques, ... dont vous ne vous servez plus, peut être qu'ils plairont à quelqu'un, et quelque chose vous plaira sûrement sur place !</span>![Gratuit](img/gratuit.jpg)
 * ![Jardin](img/jardin.jpg)<span><h3>Expo « jardiner sans phytosanitaire »</h3><em>Samedi</em></span>
 * <span><h3>Partage des femmes de l'asso «Les Femmes à la Source»</h3><em>Samedi à 16h</em>Les rencontres de la vie ont conduit ces femmes à organiser un festival du féminin, une aventure qui a changé leurs vies, elles partagent ici leur histoire.</span>![Les Femmes à la Source](img/femmesalasource.jpg)
 * ![Sourrou](img/sourrou.jpg)<span><h3>Conférence permaculture par Irène Kightley de la ferme de Sourrou</h3><em>Samedi à 18h à la salle des fêtes</em></span>
-* <span><h3>Buffet gourmand par Jeanne !</h3><em>Samedi à 19h30</em></span>![Jeanne](img/jeanne.jpg)
+* <span><h3>Buffet gourmand par Jeanne !</h3><em>Samedi à 19h30</em>Buffet ouvert. 10€/personne</span>![Jeanne](img/jeanne.jpg)
 * ![Bambou Do](img/bambou-do.jpg)<span><h3>Présentation de Bambou Do, avec Caelka</h3><em>Dimanche à 13h50</em>http://bambou-do.com/</span>
 * <span><h3>Présentation de 6 projets d'éco lieux par le collectif "construction" de l'association CELA</h3><em>Dimanche à 15h à la salle des fêtes</em></span>![CELA](img/cela.png)
 * ![Percussions](img/percussions.jpg)<span><h3>Représentation de percus par les personnes accueillies du foyer l'Embellie</h3><em>Dimanche à 18h30</em></span>
-* <span><h3>Des stands présents sur les deux jours</h3><ul><li>Salades extras de Stéphane et ses 14 aromates</li><li>Sorbets maisons de Jérémy</li><li>Tartes et autres délices de Stéphanie</li><li>Gâteaux et autres merveilles de Maëlle et Noémie</li></ul></span>
-* ![Maison24](img/maison24.jpg)<span><h3>Des stands d'associations locales</h3><ul><li>[Association Céla](http://cela.site/)</li><li>[Groupe local Colibris Bergerac](http://www.colibris-lemouvement.org/)</li><li>[Maison 24](http://lamaison24.fr/)</li><li>[Les chemins de yuna](http://sarlat2012.wix.com/lechemindeyuna)</li><li>[Les arbres du Périgord](http://arborethic.com/arbresperigord/)</li><li>[La NEF](https://www.lanef.com/)</li><li>[Collectif Compteurs Communicants 24](http://collectifcompteurscommunicants24.blogspot.com/)</li><li>Collectif transition 24</li></ul></span>
-* <span><h3>Final</h3><em>Dimanche à 19h</em></span>![Final](img/final.jpg)
+* <span><h3>Conférence / débat autour de l'éducation</h3><em>Dimanche 11h à la salle des fêtes</em>Interventions de Christelle Kouch, discipline positive, Sarah Neïma Djerbi, pédagogie Freinet, Nicolas Serre, et Nadège Tricard, présidente des Parents d'élève du collège du Bugue suivies d'un débat ouvert</span>![Conférence éducation](img/conference-education.jpg)
+* ![Stéphane](stephane.jpg)<span><h3>Des stands présents sur les deux jours</h3><ul><li>Salades extras de Stéphane et ses 14 aromates</li><li>Sorbets maisons de Jérémy</li><li>Tartes et autres délices de Stéphanie</li><li>Gâteaux et autres merveilles de Maëlle et Noémie</li></ul></span>
+* <span><h3>Des stands d'associations locales</h3><ul><li>[Association Céla](http://cela.site/)</li><li>[Groupe local Colibris Bergerac](http://www.colibris-lemouvement.org/)</li><li>[Maison 24](http://lamaison24.fr/)</li><li>[Les chemins de yuna](http://sarlat2012.wix.com/lechemindeyuna)</li><li>[Les arbres du Périgord](http://arborethic.com/arbresperigord/)</li><li>[La NEF](https://www.lanef.com/)</li><li>[Collectif Compteurs Communicants 24](http://collectifcompteurscommunicants24.blogspot.com/)</li><li>Collectif transition 24</li></ul></span>![Maison24](img/maison24.jpg)
+* ![Final](img/final.jpg)<span><h3>Final</h3><em>Dimanche à 19h</em></span>
 '''
 
     [[params.about.events]]
@@ -174,8 +175,8 @@ googleAnalytics = ""
       img = "salle-des-fetes.jpg"
       date = "7 Mai"
       title = "Salle des fêtes"
-      subtitle = "Parce que la salle, c'est fête"
-      description = "Des trucs"
+      subtitle = "Au coeur de l'Ésprit du Thé."
+      description = "Au coeur de l'Ésprit du Thé."
       body = '''
 * ![Vente de thé](img/vente-the.jpg)<span><h3>Vente de thé et présentation de thé rares</h3><em>Sur les deux jours</em></span>
 * <span><h3>Expo et poteries de Sophie La Tere en Feu</h3><em>Sur les deux jours</em></span>![Terre en feu](img/terre-en-feu.jpg)
@@ -184,7 +185,7 @@ googleAnalytics = ""
 * ![Cérémonie du thé](img/ceremonie-the.jpg)<span><h3>Cérémonie du thé et présentation de la Voie du Thé par Matthieu Mayer</h3><em>Samedi à 15h</em>(l'art du thé étant aussi un art olfactif, il est demandé aux personnes qui souhaitent participent à la cérémonie du thé de ne pas porter de parfum)</span>
 * <span><h3>Projection du film HUMAN de Yann Artus-Bertrand, deuxième partie</h3><em>Samedi à 16h</em></span>![Human](img/human2.jpg)
 * ![Sourrou](img/sourrou.jpg)<span><h3>Conférence permaculture par Irène Kightley de la ferme de Sourrou</h3><em>Samedi à 18h</em></span>
-* <span><h3>Buffet gourmand par Jeanne !</h3><em>Samedi à 19h30</em></span>![Jeanne](img/jeanne.jpg)
+* <span><h3>Buffet gourmand par Jeanne !</h3><em>Samedi à 19h30</em>Buffet ouvert. 10€/personne</span>![Jeanne](img/jeanne.jpg)
 * ![Surprise](img/surprise.jpg)<span><h3>Soirée Surprise</h3><em>Samedi à 21h</em></span>
 * <span><h3>Conférence / débat autour de l'éducation</h3><em>Dimanche à 11h</em>Interventions de Christelle Kouch, discipline positive, Sarah Neïma Djerbi, pédagogie Freinet, Nicolas Serre, et Nadège Tricard, présidente des Parents d'élève du collège du Bugue suivies d'un débat ouvert</span>![Conférence éducation](img/conference-education.jpg)
 * ![Cérémonie du thé](img/ceremonie-the.jpg)<span><h3>Cérémonie du Thé GONGFU CHA par Matthieu Mayer</h3><em>Dimanche à 14h20</em></span>

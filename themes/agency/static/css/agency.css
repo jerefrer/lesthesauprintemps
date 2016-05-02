@@ -1068,7 +1068,7 @@ ul.social-buttons li a:active {
 }
 
 .modal-body > ul > li span a {
-  display: inline-block;
+  display: block;
   width: 90%;
   overflow: hidden;
   white-space: nowrap;
