@@ -108,7 +108,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Thèmes"
-    subtitle = "4 thèmes qu'ils sont sympas"
+    subtitle = "L'Ésprit du Thé : Harmonie, Respect, Pureté, Sérénité"
     endpoint = "Mais<br>surtout<br> *...* Vous !"
 
     # The events will be listed from the top to the bottom.
