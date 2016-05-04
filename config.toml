@@ -108,7 +108,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Thèmes"
-    subtitle = "L'Ésprit du Thé : Harmonie, Respect, Pureté, Sérénité"
+    subtitle = "L'Esprit du Thé : Harmonie, Respect, Pureté, Sérénité"
     endpoint = "Mais<br>surtout<br> *...* Vous !"
 
     # The events will be listed from the top to the bottom.
@@ -119,8 +119,8 @@ googleAnalytics = ""
       img = "myrrha.jpg"
       date = "7 et 8 Mai"
       title = "Le Thé des Femmes"
-      subtitle = "L'esprit du thé au coeur de la féminité."
-      description = "L'esprit du thé au coeur de la féminité."
+      subtitle = "L'esprit du thé au cœur de la féminité."
+      description = "L'esprit du thé au cœur de la féminité."
       body = '''
 * ![Myrrha](img/myrrha.jpg)<span><h3>Exposition et présence de Myrrha</h3><em>Sur les deux jours</em>http://www.latelierdemyrrha.com/</span>
 * <span><h3>Ateliers et partages avec «Les Femmes à la Source» (Festival du Féminin)</h3><em>Ateliers de Wu Tao Samedi à 10h30 et 14h20</em>http://www.femininaupaysdelhomme.com/</span>![Les Femmes à la Source](img/femmesalasource.jpg)
@@ -152,8 +152,8 @@ googleAnalytics = ""
       img = "societe-en-transition.jpg"
       date = "8 Mai"
       title = "Une société en transition"
-      subtitle = "\"L'art du thé se trouve au coeur de la démocratie Japonaise\" Esprit du Thé, Vie du Thé"
-      description = "\"L'art du thé se trouve au coeur de la démocratie Japonaise\" Esprit du Thé, Vie du Thé"
+      subtitle = "\"L'art du thé se trouve au cœur de la démocratie Japonaise\" Esprit du Thé, Vie du Thé"
+      description = "\"L'art du thé se trouve au cœur de la démocratie Japonaise\" Esprit du Thé, Vie du Thé"
       body = '''
 * ![Troc de graines](img/troc-graines2.jpg)<span><h3>Troc de Graines et Plantes</h3><em>Sur les deux jours</em>Venez partager vos graines et vos plantes, pour embellir et enrichir les jardins.</span>
 * <span><h3>Gratiféria, une nouvelle façon de partager : comme un vide grenier, mais gratuit !</h3><em>Sur les deux jours</em>Venez avec vos objets, vêtements, disques, ... dont vous ne vous servez plus, peut être qu'ils plairont à quelqu'un, et quelque chose vous plaira sûrement sur place !</span>![Gratuit](img/gratuit.jpg)
@@ -175,8 +175,8 @@ googleAnalytics = ""
       img = "salle-des-fetes.jpg"
       date = "7 Mai"
       title = "Salle des fêtes"
-      subtitle = "Au coeur de l'Ésprit du Thé."
-      description = "Au coeur de l'Ésprit du Thé."
+      subtitle = "Au cœur de l'Esprit du Thé."
+      description = "Au cœur de l'Esprit du Thé."
       body = '''
 * ![Vente de thé](img/vente-the.jpg)<span><h3>Vente de thé et présentation de thé rares</h3><em>Sur les deux jours</em></span>
 * <span><h3>Expo et poteries de Sophie La Tere en Feu</h3><em>Sur les deux jours</em></span>![Terre en feu](img/terre-en-feu.jpg)
