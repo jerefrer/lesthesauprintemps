@@ -727,6 +727,10 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
+    .timeline .timeline-heading h4 {
+        margin-top: 25px;
+    }
+
     .timeline>li {
         min-height: 150px;
     }
